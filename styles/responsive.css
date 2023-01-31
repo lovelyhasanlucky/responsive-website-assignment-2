@@ -11,8 +11,8 @@
      }
 
     /*header and navigation styles*/
-.header{
-    position: absolute;
+header{
+    padding: 50px 240px;
     width: 1920px;
     height: 1322px;
     background: rgba(255, 144, 14, 0.1);
@@ -41,6 +41,7 @@ nav ul{
 .bannar{
      padding-top: 250px 530px 850px 250px;
      text-align: center;
+     margin-bottom: 30px;
 }
 .bannar-title{
     font-weight: 700;
@@ -50,19 +51,95 @@ nav ul{
 .bannar-describtion{
     font-weight: 400;
     font-size: 16px;
-    line-height: 26px;
+    
     color: #727272;
     margin: 20px 500px;
 
 }
 .primary-btn{
     font-size: 20px;
-    line-height: 23px;
+   
     background-color: orangered;
     color: #FFFFFF;
     margin: 30px 870px;
     border-color: white;
+    margin-bottom: 30px;
 }
 .header-img{
-    border-radius: 8px;
+   padding: 50px 250px;
+   
+}
+
+/*section-1 styles*/
+
+.section-1{
+    display: flex;
+    padding-top: 50px;
+}
+    .section-1-part-1{ 
+        padding-left: 510px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 25px;
+ }
+.section-1-images{
+     
+}
+.section-1-part-2{
+    font-weight: 700;
+    font-size: 45px;
+    width: 468px;
+   
+    padding-left: 200px;
+    padding-top: 200px; ;
+ 
+}
+.section-1-title{
+    font-weight: 700;
+    font-size: 65px;
+}
+.design-1{
+      color:rgba(114, 114, 114, 1);
+}
+.design-2{
+      color: rgba(19, 19, 19, 1);
+}
+.design-3{
+     color: rgba(255, 144, 14, 1);
+}
+.section-1-description{
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 30px;
+}
+.primary-btn-2{
+    font-size: 20px;
+   
+    background-color: orangered;
+    color: #FFFFFF;
+    
+    border-color: white;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+.section-2{
+
 }
